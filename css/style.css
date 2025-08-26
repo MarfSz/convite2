@@ -4,8 +4,41 @@ body {
     background-size: cover;
     background-position: center center;
 }
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
 
+.iconeWa {
+  text-align: center;
+}
+.iconeLo {
+  text-align: center;
+}
+.iconeWa img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
 
+.iconeWa p {
+  margin-top: 8px;
+  font-size: 1em;
+  transform: translateX(-2px);
+}
+.iconeLo img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.iconeLo p {
+  margin-top: 8px;
+  font-size: 1em;
+  transform: translateX(-2px);
+}
 @media (max-width: 600px) {
 
 }
